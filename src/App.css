@@ -1,0 +1,48 @@
+.App {
+}
+
+.App-header {
+  background-color: #ffffff;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  color: #747380;
+  text-align: left;
+}
+
+.title {
+  -webkit-text-stroke-width: 4px;
+  -webkit-text-stroke-color: #87C2D5;
+  color: #e7f6f6;
+  font-size: 8vh;
+}
+
+.top {
+  display: flex;
+  justify-content: space-between;
+}
+
+table {
+  padding: 15vh;
+}
+
+.subtitle {
+  font-size: 4vh;
+  padding: 4vh 0vh;
+  font-weight: bold;
+
+}
+
+.intro {
+  font-size: 3vh;
+}
+
+#circle {
+  width: 70vh;
+  height: 70vh;
+  background: #DDE0FF;
+  border-radius: 50%;
+  -webkit-text-stroke-width: 4px;
+  -webkit-text-stroke-color: #F3F3F3;
+  margin: 5vh 5vh;
+}
