@@ -1,4 +1,5 @@
 import "./App.css";
+import "./boot.css";
 import hima from "./hima.png";
 import positweet from "./positweet.png";
 import website from "./website.png";
@@ -27,23 +28,25 @@ function App() {
               to the world’s problems!
             </div>
             <br></br>
+            <div className="button-div">
             <button className="more"> Learn more below! </button>
+            </div>
           </table>
           <div id="circle">
             <img src={hima} alt="hima"></img>
           </div>
         </div>
         <div className="projects">
-            <table className="project-list">
+            <div className="project-list row">
             <Project name="PosiTweet" image={positweet} description="PosiTweet: A web app designed to show you positive vibes only!"> </Project>
             <Project name="Portfolio Website" image={website} description="I'm currently working on designing my personal website! I'm incorporated my love for travel via a mapping API!"> </Project>
             <Project name="Research Student" image={research} description="Designed, analyzed, and validated hypotheses based on historical data."> </Project>
-            </table>
-            <table className="project-list">
-            <Project name="Shad Summer Program" image={shad} description="PosiTweet: A web app designed to show you positive vibes only!"> </Project>
-            <Project name="STEMComp 2020" image={stemcomp} description="I'm currently working on designing my personal website! I'm incorporated my love for travel via a mapping API!"> </Project>
-            <Project name="DECA Business Plan Design" image={deca} description="Designed, analyzed, and validated hypotheses based on historical data."> </Project>
-            </table>
+            </div>
+            <div className="row project-list">
+            <Project className="col" name="Shad Summer Program" image={shad} description="PosiTweet: A web app designed to show you positive vibes only!"> </Project>
+            <Project className="col" name="STEMComp 2020" image={stemcomp} description="I'm currently working on designing my personal website! I'm incorporated my love for travel via a mapping API!"> </Project>
+            <Project className="col" name="DECA Business Plan Design" image={deca} description="Designed, analyzed, and validated hypotheses based on historical data."> </Project>
+            </div>
         </div>
       </header>
     </div>

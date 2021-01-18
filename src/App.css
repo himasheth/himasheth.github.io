@@ -44,16 +44,18 @@ table {
 .projects {
   background-color: #EAFAFF;
   padding: 10vh;
+  max-width: 100% 
 }
 
 .project {
   background: #ffffff;
-  padding: 3vh;
+  padding: 3vh 4vh;
   color: #BABABA;
   box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.15);
   border-radius: 13px;
   width: 40vh;
-  margin: 0vh;
+  margin-left: 5vh;
+  margin-bottom: 5vh;
   
 }
 
@@ -73,16 +75,20 @@ table {
 }
 
 .more {
-border-radius: 50px;
-padding: 0vh 15vh;
-height: 5vh;
-color: #BDB8B8;
+color: hsl(0, 4%, 73%);
 border: #BDB8B8;
 font-size: 3vh;
 font-weight: bold;
-margin-bottom: 1vh;
-margin: 2vh;
 background-color: #E7F6F6;
+border-radius: 50px;
+}
+
+.button-div {
+  background-color: #E7F6F6;
+  border-radius: 50px;
+  padding: 1vh 15vh;
+  align-self: center;
+  text-align: center;
 }
 
 .description {
@@ -94,5 +100,6 @@ background-color: #E7F6F6;
   height: auto;
   max-width: 40vh;
   border-style:hidden;
+  align-self: center;
   box-shadow: 0 0 12px 12px white inset;
 }
