@@ -7,7 +7,10 @@ export const Project = (props) => {
     <div className="project">
       <h2 className="project-name"> {props.name}</h2>
       <img className="image" alt={props.name} src={props.image}></img>
+      <p className="gray-heading">What It Is: </p>
       <p className="description">{props.description}</p>
+      <p className="gray-heading">My role: </p>
+      <p className="my-role">{props.role}</p>
     </div>
   );
 };
