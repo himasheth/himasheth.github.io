@@ -40,10 +40,21 @@ table {
   margin: 5vh 10vh;
 }
 
+.section-heading {
+  padding-bottom: 3vh;
+  font-size: 5vh;
+  color: slategray
+}
+
 .projects {
   background-color: #eafaff;
   padding: 10vh;
   max-width: 100%;
+}
+
+a:link, a::after,a {
+text-decoration: underline;
+color: white;
 }
 
 .project {
@@ -107,6 +118,7 @@ table {
   border-style: hidden;
   align-self: center;
   box-shadow: 0 0 12px 12px white inset;
+  display:inline-block;vertical-align:top;
 }
 
 .my-role {
@@ -114,4 +126,25 @@ table {
   font-weight: bold;
   font-size: 1.5vh;
   margin-top: 0.6vh;
+}
+
+.extra-curriculars {
+  background-color: #eafaff;
+  padding: 0vh 10vh;
+  max-width: 100%;
+}
+
+.ec {
+  background: #ffffff;
+  padding: 3vh 4vh;
+  color: #bababa;
+  box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.15);
+  border-radius: 13px;
+  max-width: 100%;
+  margin-left: 5vh;
+  margin-bottom: 5vh;
+}
+
+.info {
+  display:inline-block;
 }
