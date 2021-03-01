@@ -30,10 +30,10 @@
 }
 
 .top {
-  padding: 0vh 10vw;
+  margin: 0vh 10vw;
   display: flex;
+  overflow: hidden;
   background-color: #FAFAFA;
-  justify-content: space-between;
 }
 
 table {
