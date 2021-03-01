@@ -35,7 +35,7 @@ function App() {
               Hima Sheth’s Design Portfolio
             </div>
             <div className="subtitle">
-              ✨ I’m a dev and aspiring designer ✨
+              I’m a dev and aspiring designer
             </div>
             <div className="intro">
               I’m passionate about <b>tech for social good </b>and hope to
