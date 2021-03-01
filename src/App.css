@@ -1,10 +1,13 @@
 .App-header {
-  background-color: #ffffff;
+  background-color: #FAFAFA;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
   color: #747380;
   text-align: left;
+  margin-bottom: 0%;
+  overflow: hidden;
+
 }
 
 .title {
@@ -14,13 +17,28 @@
   font-size: 8vh;
 }
 
+.top-banner, 
+.top-banner::after, 
+.top-banner:link{
+  background-color: #ededed;
+  padding: 0.7vh;
+  font-size: 1.4vh;
+  text-align: center;
+  color: #82818e;
+  text-decoration: none;
+  font-weight: 600;
+}
+
 .top {
+  padding: 5vh 10vh;
   display: flex;
+  background-color: #FAFAFA;
   justify-content: space-between;
 }
 
 table {
-  padding: 15vh 20vh;
+  padding: 0vh 10%;
+  padding-top: 15vh;
 }
 
 .subtitle {
@@ -30,47 +48,58 @@ table {
 }
 
 .intro {
-  font-size: 3vh;
+  font-size: 2.7vh;
+  margin-bottom: 4vh;
 }
 
 #circle {
-  width: 70vh;
-  height: 70vh;
-  border-radius: 50%;
-  margin: 5vh 10vh;
+  float: inline-end;
+  color: #EEEEFF;
+  margin-top: 2vh;
+  margin-bottom: 0%;
 }
 
 .section-heading {
   padding-bottom: 3vh;
   font-size: 5vh;
-  color: slategray
+  color: slategray;
+  transition: background-position 0.5s ease-out;
 }
 
+
 .projects {
-  background-color: #eafaff;
-  padding: 10vh;
+  background: linear-gradient(to bottom, #EAFAFF, #d9e6fb);
+  padding: 10vh 30vh;
   max-width: 100%;
 }
 
-a:link, a::after,a {
-text-decoration: underline;
-color: white;
+.project-name:link,
+.project-name::after, 
+.ec-name:link, 
+.ec-name::after{
+  text-decoration: underline;
+  color: white;
+}
+
+a, a::after, a:link {
+  text-decoration-color: white;
 }
 
 .project {
-  background: #ffffff;
+  background: #FAFAFA;
   padding: 3vh 4vh;
   color: #bababa;
   box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.15);
   border-radius: 13px;
   width: 40vh;
-  margin-left: 5vh;
   margin-bottom: 5vh;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .project-name {
   font-weight: lighter;
-  background-color: #7dc8c8;
+  background-color: #7DC8C8;
   color: white;
   font-weight: normal;
   padding: 0.5vh 1.5vh;
@@ -94,20 +123,21 @@ color: white;
 .button-div {
   background-color: #e7f6f6;
   border-radius: 50px;
-  padding: 1vh 15vh;
-  align-self: center;
+  padding: 1vh 10%;
   text-align: center;
+  margin-bottom: 5%;
 }
 
 .description {
   font-weight: bold;
   color: rgb(95, 95, 95);
-  font-size: 1.5vh;
+  font-size: 1.8vh;
   margin-top: 0.6vh;
 }
 
 .gray-heading {
   font-weight: normal;
+  font-size: 2vh;
   color: rgb(133, 133, 133);
   margin-bottom: 0;
 }
@@ -118,33 +148,58 @@ color: white;
   border-style: hidden;
   align-self: center;
   box-shadow: 0 0 12px 12px white inset;
-  display:inline-block;vertical-align:top;
 }
 
 .my-role {
   color: rgb(95, 95, 95);
   font-weight: bold;
-  font-size: 1.5vh;
   margin-top: 0.6vh;
+  font-size: 1.8vh;
 }
 
 .extra-curriculars {
-  background-color: #eafaff;
-  padding: 0vh 10vh;
+  background: linear-gradient(to bottom, #d9e6fb, #FAFAFA);
+  padding: 0vh 15%;
   max-width: 100%;
 }
 
 .ec {
-  background: #ffffff;
   padding: 3vh 4vh;
+  background-color: #FAFAFA;
   color: #bababa;
   box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.15);
   border-radius: 13px;
-  max-width: 100%;
-  margin-left: 5vh;
+  width: 100%;
+  max-width: 90%;
   margin-bottom: 5vh;
+  margin-left: auto;
+  margin-right: auto;
+  max-height: 40vh;
+}
+
+.ec-name {
+  font-weight: lighter;
+  background-color: #6e90c7;
+  color: white;
+  font-weight: normal;
+  padding: 0.5vh 1.5vh;
+  border-radius: 4px;
+}
+
+.ec-image {
+  box-shadow: 0 0 12px 12px white inset;
+  max-width: 20vw;
+  margin-top: 3%;
+  margin-right: 3%;
+  margin-bottom: auto;
 }
 
 .info {
-  display:inline-block;
+  float: right;
+  margin-right: 5%;
+  font-size: 2vw;
+  max-width: 60%;
+  overflow-wrap: break-word;
+  width: auto;
+  margin-bottom: 1%;
 }

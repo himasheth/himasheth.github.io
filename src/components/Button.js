@@ -8,6 +8,7 @@ export default class LearnButton extends Component {
       <Link activeClass="active" to="projects" spy={true} smooth={true}>
         <button className="more"> Learn more below! </button>
       </Link>
+      
     );
   }
 }
