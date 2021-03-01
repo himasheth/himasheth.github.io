@@ -52,15 +52,10 @@ table {
   margin-bottom: 4vh;
 }
 
-#circle {
-  float: inline-end;
-  color: #EEEEFF;
-  margin-top: 2vh;
-}
-
 .hima {
-  padding-top:15vh;
+  padding-top:10vh;
   width: 30vw;
+  margin: 2vw;
 }
 
 .section-heading {
