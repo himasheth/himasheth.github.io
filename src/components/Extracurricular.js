@@ -13,7 +13,7 @@ export const Extracurricular = (props) => {
         <div className="info">
           <p className="gray-heading">What It Is: </p>
           <p className="description">{props.description}</p>
-          <p className="gray-heading">My role: </p>
+          <p className="gray-heading">My Role: </p>
           <p className="my-role">{props.role}</p>
         </div>
       </div>

@@ -14,7 +14,7 @@
   -webkit-text-stroke-width: 4px;
   -webkit-text-stroke-color: #87c2d5;
   color: #e7f6f6;
-  font-size: 8vh;
+  font-size: 4vw;
 }
 
 .top-banner, 
@@ -22,7 +22,7 @@
 .top-banner:link{
   background-color: #ededed;
   padding: 0.7vh;
-  font-size: 1.4vh;
+  font-size: 0.7vw;
   text-align: center;
   color: #82818e;
   text-decoration: none;
@@ -42,13 +42,13 @@ table {
 }
 
 .subtitle {
-  font-size: 4vh;
+  font-size: 2vw;
   padding: 4vh 0vw;
   font-weight: bold;
 }
 
 .intro {
-  font-size: 2.7vh;
+  font-size: 1.4vw;
   margin-bottom: 4vh;
 }
 
@@ -65,7 +65,7 @@ table {
 
 .section-heading {
   padding-bottom: 3vh;
-  font-size: 5vh;
+  font-size: 2.5vw;
   color: slategray;
   transition: background-position 0.5s ease-out;
 }
@@ -124,7 +124,7 @@ a, a::after, a:link {
 .more {
   color: hsl(0, 4%, 73%);
   border: #bdb8b8;
-  font-size: 3vh;
+  font-size: 1.5vw;
   font-weight: bold;
   background-color: #e7f6f6;
   border-radius: 50px;
@@ -140,13 +140,13 @@ a, a::after, a:link {
 .description {
   font-weight: bold;
   color: rgb(95, 95, 95);
-  font-size: 1.8vh;
+  font-size: 0.9vw;
   margin-top: 0.6vh;
 }
 
 .gray-heading {
   font-weight: normal;
-  font-size: 2vh;
+  font-size: 1vw;
   color: rgb(133, 133, 133);
   margin-bottom: 0;
 }
@@ -163,7 +163,7 @@ a, a::after, a:link {
   color: rgb(95, 95, 95);
   font-weight: bold;
   margin-top: 0.6vh;
-  font-size: 1.8vh;
+  font-size: 0.9vw;
 }
 
 .extra-curriculars {
@@ -179,7 +179,7 @@ a, a::after, a:link {
   box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.15);
   border-radius: 13px;
   width: 100%;
-  max-width: 90%;
+  max-width: 66vw;
   margin-bottom: 5vh;
   margin-left: auto;
   margin-right: auto;
@@ -187,7 +187,6 @@ a, a::after, a:link {
 }
 
 .ec-name {
-  font-weight: lighter;
   background-color: #6e90c7;
   color: white;
   font-weight: normal;
@@ -198,16 +197,17 @@ a, a::after, a:link {
 .ec-image {
   box-shadow: 0 0 12px 12px white inset;
   max-width: 20vw;
-  margin-top: 3%;
-  margin-right: 3%;
+  margin-top: 4vh;
+  margin-right: 1.5vw;
   margin-bottom: auto;
 }
 
 .info {
   float: right;
-  margin-right: 2%;
-  font-size: 2vw;
+  margin-right: 1vw;
+  font-size: 1.5vw;
   max-width: 41vw;
   width: auto;
+  margin-bottom: 0.5vh;
 }
 
