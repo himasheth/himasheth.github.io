@@ -1,11 +1,7 @@
   
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
 import App from './App';
-import { Project } from "./components/Project.js";
-import LearnButton from './components/Button';
-import { Extracurricular } from "./components/Extracurricular";
 import { BrowserRouter as Router} from 'react-router-dom';
 
 

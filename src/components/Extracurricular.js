@@ -1,6 +1,7 @@
 //make a function not an object!
+import { any, string } from "prop-types";
 import React from "react";
-import "../App.css";
+import "./Extracurricular.css";
 
 export const Extracurricular = (props) => {
   return (
@@ -9,7 +10,7 @@ export const Extracurricular = (props) => {
         <h2 className="ec-name"> {props.name}</h2>
       </a>
       <div className="ec-card">
-        <img className="ec-image" alt={props.name} src={props.image}></img>
+        <img className="ec-image" alt={props.name} src={props.picture}></img>
         <div className="info">
           <p className="gray-heading">What It Is: </p>
           <p className="description">{props.description}</p>
@@ -19,4 +20,12 @@ export const Extracurricular = (props) => {
       </div>
     </div>
   );
+};
+
+Extracurricular.propTypes = {
+  name: string,
+  link: string,
+  picture: any,
+  description: string,
+  role: string,
 };

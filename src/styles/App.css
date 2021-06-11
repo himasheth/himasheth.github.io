@@ -1,5 +1,5 @@
-.App-header {
-  background-color: #FAFAFA;
+.App {
+  background-color: #fafafa;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -7,19 +7,24 @@
   text-align: left;
   margin-bottom: 0%;
   overflow: hidden;
-
 }
 
-.title {
-  -webkit-text-stroke-width: 4px;
-  -webkit-text-stroke-color: #87c2d5;
-  color: #e7f6f6;
-  font-size: 4vw;
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 
-.top-banner, 
-.top-banner::after, 
-.top-banner:link{
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+.top-banner,
+.top-banner::after,
+.top-banner:link {
   background-color: #ededed;
   padding: 0.7vh;
   font-size: 0.7vw;
@@ -29,16 +34,20 @@
   font-weight: 600;
 }
 
+/* HEADING STYLES */
+
 .top {
   margin: 0vh 10vw;
   display: flex;
   overflow: hidden;
-  background-color: #FAFAFA;
+  background-color: #fafafa;
 }
 
-table {
-  padding: 10vh 5vw;
-  padding-top: 20vh;
+.title {
+  -webkit-text-stroke-width: 4px;
+  -webkit-text-stroke-color: #87c2d5;
+  color: #e7f6f6;
+  font-size: 4vw;
 }
 
 .subtitle {
@@ -47,15 +56,27 @@ table {
   font-weight: bold;
 }
 
+table {
+  padding: 10vh 5vw;
+  padding-top: 20vh;
+}
+
 .intro {
   font-size: 1.4vw;
   margin-bottom: 4vh;
 }
 
+.button-div {
+  background-color: #e7f6f6;
+  border-radius: 50px;
+  padding: 1vh 5vw;
+  text-align: center;
+}
+
 .hima {
-  padding-top:10vh;
-  width: 30vw;
-  margin: 2vw;
+  padding-top: 8vh;
+  width: 38vw;
+  margin: 0vw;
 }
 
 .section-heading {
@@ -65,9 +86,8 @@ table {
   transition: background-position 0.5s ease-out;
 }
 
-
-#projects {
-  background: linear-gradient(to bottom, #EAFAFF, #d9e6fb);
+.project-section {
+  background: linear-gradient(to bottom, #eafaff, #d9e6fb);
   padding: 10vh 8vw;
   max-width: 100%;
 }
@@ -79,19 +99,21 @@ table {
 }
 
 .project-name:link,
-.project-name::after, 
-.ec-name:link, 
-.ec-name::after{
+.project-name::after,
+.ec-name:link,
+.ec-name::after {
   text-decoration: underline;
   color: white;
 }
 
-a, a::after, a:link {
+a,
+a::after,
+a:link {
   text-decoration-color: white;
 }
 
 .project {
-  background: #FAFAFA;
+  background: #fafafa;
   padding: 3vh 2vw;
   color: #bababa;
   box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.15);
@@ -104,7 +126,7 @@ a, a::after, a:link {
 
 .project-name {
   font-weight: lighter;
-  background-color: #7DC8C8;
+  background-color: #7dc8c8;
   color: white;
   font-weight: normal;
   padding: 0.5vh 0.8vw;
@@ -123,13 +145,6 @@ a, a::after, a:link {
   font-weight: bold;
   background-color: #e7f6f6;
   border-radius: 50px;
-}
-
-.button-div {
-  background-color: #e7f6f6;
-  border-radius: 50px;
-  padding: 1vh 5vw;
-  text-align: center;
 }
 
 .description {
@@ -162,14 +177,14 @@ a, a::after, a:link {
 }
 
 .extra-curriculars {
-  background: linear-gradient(to bottom, #d9e6fb, #FAFAFA);
+  background: linear-gradient(to bottom, #d9e6fb, #fafafa);
   padding: 0vh 15vw;
   max-width: 100%;
 }
 
 .ec {
   padding: 3vh 2vw;
-  background-color: #FAFAFA;
+  background-color: #fafafa;
   color: #bababa;
   box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.15);
   border-radius: 13px;
@@ -205,4 +220,3 @@ a, a::after, a:link {
   width: auto;
   margin-bottom: 0.5vh;
 }
-

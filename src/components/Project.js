@@ -1,6 +1,7 @@
 //make a function not an object!
+import { any, string } from "prop-types";
 import React from "react";
-import "../App.css";
+import "../styles/App.css";
 
 export const Project = (props) => {
   return (
@@ -13,4 +14,12 @@ export const Project = (props) => {
       <p className="my-role">{props.role}</p>
     </div>
   );
+};
+
+Project.propTypes = {
+  name: string,
+  link: string,
+  picture: any,
+  description: string,
+  role: string,
 };
