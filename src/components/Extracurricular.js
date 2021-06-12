@@ -12,10 +12,10 @@ export const Extracurricular = (props) => {
       <div className="ec__card">
         <img className="ec__image" alt={props.name} src={props.picture}></img>
         <div className="ec__info">
-          <p className="gray-heading">What It Is: </p>
-          <p className="description">{props.description}</p>
-          <p className="gray-heading">My Role: </p>
-          <p className="my-role">{props.role}</p>
+          <p className="ec__heading">What It Is: </p>
+          <p className="ec__description">{props.description}</p>
+          <p className="ec__heading">My Role: </p>
+          <p className="ec__role">{props.role}</p>
         </div>
       </div>
     </div>

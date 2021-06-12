@@ -32,6 +32,12 @@
     border-radius: 4px;
   }
 
+  &__name:link,
+  &__name::after {
+    text-decoration: underline;
+    color: white;
+  }
+
   &__image {
     box-shadow: 0 0 12px 12px white inset;
     max-width: 20vw;
@@ -47,5 +53,26 @@
     max-width: 41vw;
     width: auto;
     margin-bottom: 0.5vh;
+  }
+
+  &__description {
+    font-weight: bold;
+    color: rgb(95, 95, 95);
+    font-size: 0.9vw;
+    margin-top: 0.6vh;
+  }
+
+  &__heading {
+    font-weight: normal;
+    font-size: 1vw;
+    color: rgb(133, 133, 133);
+    margin-bottom: 0;
+  }
+
+  &__role {
+    color: rgb(95, 95, 95);
+    font-weight: bold;
+    margin-top: 0.6vh;
+    font-size: 0.9vw;
   }
 }

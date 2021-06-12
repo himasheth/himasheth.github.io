@@ -95,3 +95,25 @@ table {
   align-self: center;
   box-shadow: 0 0 12px 12px white inset;
 }
+
+.projects {
+  max-width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.project-section {
+  background: linear-gradient(to bottom, #eafaff, #d9e6fb);
+  padding: 10vh 8vw;
+  max-width: 100%;
+}
+
+.more {
+  color: hsl(0, 4%, 73%);
+  border: #bdb8b8;
+  font-size: 1.5vw;
+  font-weight: bold;
+  background-color: #e7f6f6;
+  border-radius: 50px;
+}
+
