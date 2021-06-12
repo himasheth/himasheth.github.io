@@ -1,7 +1,7 @@
 import './styles/App.css';
 import './styles/boot.css';
 import React from 'react';
-import hima from './data/images/hima.svg';
+import hima from './data/images/hima.png';
 import { Project } from './components/Project.js';
 import LearnButton from './components/Button';
 import { Extracurricular } from './components/Extracurricular';
