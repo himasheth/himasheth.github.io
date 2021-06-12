@@ -10,30 +10,30 @@ function App() {
 
   return (
     <div className='App'>
-      <div className='top-banner'>
-        <a className='top-banner' href='https://www.figma.com/file/FjDM56usBMe18h2P81Ieau/portfoliooooooo?node-id=0%3A1'>
+      <div className='top__banner'>
+        <a className='top__banner' href='https://www.figma.com/file/FjDM56usBMe18h2P81Ieau/portfoliooooooo?node-id=0%3A1'>
           This website is a work in progress. Click here to see the current design progress!
         </a>
       </div>
       <div className='top'>
         <table>
-          <div className='title'>
+          <div className='top__title'>
             Hima Sheth’s Design Portfolio
           </div>
-          <div className='subtitle'>
+          <div className='top__subtitle'>
             I’m a dev and aspiring designer
           </div>
-          <div className='intro'>
+          <div className='top__intro'>
             I’m passionate about <b>tech for social good </b>and hope to
             develop and design impactful, and easy-to-use solutions
             to the world’s problems!
           </div>
           <br />
-          <div className='button-div'>
+          <div className='top__button-div'>
             <LearnButton />
           </div>
         </table>
-        <img id="circle" className='hima' src={hima} alt='hima'></img>
+        <img id="circle" className='top__hima' src={hima} alt='hima'></img>
       </div>
       <div className='project-section'>
         <div className='projects'>
