@@ -34,7 +34,7 @@ function App() {
             <LearnButton></LearnButton>
           </div>
         </table>
-        <img className='hima' src={hima} alt='hima'></img>
+        <img id="circle" className='hima' src={hima} alt='hima'></img>
       </div>
       <div className='project-section'>
         <div className='projects'>

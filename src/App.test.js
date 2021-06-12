@@ -1,15 +1,22 @@
+import { render } from "@testing-library/react";
 import React from "react"
-import { render, screen, describe, expect } from '@testing-library/react';
 import App from './App';
-import { getElementById } from "domutils";
+import { projectList, extracurricularList } from "./data/Data";
 
-describe('renders learn react link', () => {
-  render(<App />);
-  const linkElement = screen.getByText(/learn react/i);
-  expect(linkElement).toBeInTheDocument();
-});
+// Note: want to switch to describe.. it.. tests for better readbility 
 
-describe('renders circle', () => {
-  render(<App/>);
-  expect(getElementById("circle").toBeInTheDocument)
+test("will render all the projects provided in projectList", () => {
+  let length = projectList.length
+  render(
+    <App />
+  );
+  expect(projectList[length - 1]["name"].toBeInTheDocument)
+})
+
+test("will render all the extracurriculars provided", () => {
+  let length = extracurricularList.length
+  render(
+    <App />
+  );
+  expect(extracurricularList[length - 1]["name"].toBeInTheDocument)
 })
