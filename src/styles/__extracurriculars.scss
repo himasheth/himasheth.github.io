@@ -1,0 +1,51 @@
+.extra-curriculars {
+  background: linear-gradient(to bottom, #d9e6fb, #fafafa);
+  padding: 0vh 15vw;
+  max-width: 100%;
+}
+
+.ec {
+  padding: 3vh 2vw;
+  background-color: #fafafa;
+  color: #bababa;
+  box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.15);
+  border-radius: 13px;
+  width: 100%;
+  max-width: 66vw;
+  margin-bottom: 5vh;
+  margin-left: auto;
+  margin-right: auto;
+  max-height: 40vh;
+
+  &__section-heading {
+    padding-bottom: 3vh;
+    font-size: 2.5vw;
+    color: slategray;
+    transition: background-position 0.5s ease-out;
+  }
+
+  &__name {
+    background-color: #6e90c7;
+    color: white;
+    font-weight: normal;
+    padding: 0.5vh 0.8vw;
+    border-radius: 4px;
+  }
+
+  &__image {
+    box-shadow: 0 0 12px 12px white inset;
+    max-width: 20vw;
+    margin-top: 4vh;
+    margin-right: 1.5vw;
+    margin-bottom: auto;
+  }
+
+  &__info {
+    float: right;
+    margin-right: 1vw;
+    font-size: 1.5vw;
+    max-width: 41vw;
+    width: auto;
+    margin-bottom: 0.5vh;
+  }
+}

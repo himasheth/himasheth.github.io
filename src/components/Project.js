@@ -1,7 +1,7 @@
 //make a function not an object!
 import { any, string } from "prop-types";
 import React from "react";
-import "../styles/App.css";
+import "../styles/styles.scss";
 
 export const Project = (props) => {
   return (

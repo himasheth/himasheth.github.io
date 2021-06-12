@@ -1,5 +1,4 @@
-import './styles/App.css';
-import './styles/boot.css';
+import './styles/styles.scss';
 import React from 'react';
 import hima from './data/images/hima.png';
 import { Project } from './components/Project.js';
@@ -29,9 +28,9 @@ function App() {
             develop and design impactful, and easy-to-use solutions
             to the world’s problems!
           </div>
-          <br></br>
+          <br />
           <div className='button-div'>
-            <LearnButton></LearnButton>
+            <LearnButton />
           </div>
         </table>
         <img id="circle" className='hima' src={hima} alt='hima'></img>
@@ -41,7 +40,16 @@ function App() {
           <h2 className='section-heading'>projects.</h2>
           <div className='project-list row'>
             {projectList.map((project) =>
-              <Project key="0" link={project.link} name={project.name} image={project.image} description={project.description} role={project.role} picture={project.image}></Project>)}
+              <Project
+                key="0"
+                link={project.link}
+                name={project.name}
+                image={project.image}
+                description={project.description}
+                role={project.role}
+                picture={project.image}
+              />
+            )}
           </div>
         </div>
       </div>
@@ -49,7 +57,16 @@ function App() {
         <h2 className='section-heading'>extra-curriculars.</h2>
         <div className='project-list row'>
           {extracurricularList.map((ec) =>
-            <Extracurricular key="0" link={ec.link} name={ec.name} image={ec.image} description={ec.description} role={ec.role} picture={ec.image}></Extracurricular>)}
+            <Extracurricular
+              key="0"
+              link={ec.link}
+              name={ec.name}
+              image={ec.image}
+              description={ec.description}
+              role={ec.role}
+              picture={ec.image}
+            />
+          )}
         </div>
       </div>
     </div>

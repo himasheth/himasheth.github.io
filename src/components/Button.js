@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import { Link } from "react-scroll";
-import "../styles/App.css";
+import "../styles/styles.scss";
 
 export default class LearnButton extends Component {
   render() {
