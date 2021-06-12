@@ -35,7 +35,7 @@ function App() {
         </table>
         <img id="circle" className='top__hima' src={hima} alt='hima'></img>
       </div>
-      <div className='project-section'>
+      <div className='section'>
         <div className='projects'>
           <h2 className='section-heading'>projects.</h2>
           <div className='project-list row'>
@@ -53,7 +53,7 @@ function App() {
           </div>
         </div>
       </div>
-      <div className='extra-curriculars' id='extra-curriculars'>
+      <div className='extra-curriculars'>
         <h2 className='section-heading'>extra-curriculars.</h2>
         <div className='project-list row'>
           {extracurricularList.map((ec) =>

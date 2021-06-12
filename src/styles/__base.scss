@@ -30,15 +30,7 @@ a:link {
   transition: background-position 0.5s ease-out;
 }
 
-.image {
-  height: auto;
-  max-width: 20vw;
-  border-style: hidden;
-  align-self: center;
-  box-shadow: 0 0 12px 12px white inset;
-}
-
-.project-section {
+.section {
   background: linear-gradient(to bottom, #eafaff, #d9e6fb);
   padding: 10vh 8vw;
   max-width: 100%;
