@@ -33,7 +33,7 @@ function App() {
             <LearnButton />
           </div>
         </table>
-        <img id="circle" className='top__hima' src={hima} alt='hima'></img>
+        <img id="circle" className='top__hima' src={hima} alt='hima'/>
       </div>
       <div className='section'>
         <div className='projects'>
