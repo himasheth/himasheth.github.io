@@ -1,3 +1,5 @@
+@import './_mixins';
+
 .project {
   background: #fafafa;
   padding: 3vh 2vw;
@@ -9,6 +11,19 @@
   margin-left: auto;
   margin-right: auto;
 
+  @include respond(tab-port) {
+    min-width: 50vw;
+  }
+  @include respond(tab-land) {
+    min-width: 50vw;
+  }
+  @include respond(ipad) {
+    min-width: 50vw;
+  }
+  @include respond(phone) {
+    min-width: 70vw;
+  }
+
   &__name {
     font-weight: lighter;
     background-color: #7dc8c8;
@@ -16,6 +31,7 @@
     font-weight: normal;
     padding: 0.5vh 0.8vw;
     border-radius: 4px;
+    font-size: 2.3vh;
   }
 
   &__name:link,
@@ -32,13 +48,13 @@
   &__description {
     font-weight: bold;
     color: rgb(95, 95, 95);
-    font-size: 0.9vw;
+    font-size: 1.6vh;
     margin-top: 0.6vh;
   }
 
   &__heading {
     font-weight: normal;
-    font-size: 1vw;
+    font-size: 2vh;
     color: rgb(133, 133, 133);
     margin-bottom: 0;
   }
@@ -49,12 +65,28 @@
     border-style: hidden;
     align-self: center;
     box-shadow: 0 0 12px 12px white inset;
+    @include respond(tab-port) {
+      min-width: 45vw;
+      margin: 0vh 2.5vw;
+    }
+    @include respond(tab-land) {
+      min-width: 45vw;
+      margin: 0vh 2.5vw;
+    }
+    @include respond(ipad) {
+      min-width: 45vw;
+      margin: 0vh 2.5vw;
+    }
+    @include respond(phone) {
+      min-width: 65vw;
+      margin: 0vh 2.5vw;
+    }
   }
 
   &__role {
     color: rgb(95, 95, 95);
     font-weight: bold;
     margin-top: 0.6vh;
-    font-size: 0.9vw;
+    font-size: 1.6vh;
   }
 }

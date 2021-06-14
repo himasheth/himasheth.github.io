@@ -1,3 +1,5 @@
+@import "./_mixins";
+
 .extra-curriculars {
   background: linear-gradient(to bottom, #d9e6fb, #fafafa);
   padding: 0vh 15vw;
@@ -17,12 +19,32 @@
   margin-right: auto;
   max-height: 40vh;
 
+  @include respond(tab-port) {
+    min-width: 50vw;
+    min-height:60vh;
+    align-items: center;
+  }
+  @include respond(tab-land) {
+    min-width: 50vw;
+    min-height:60vh;
+  }
+  @include respond(ipad) {
+    min-width: 50vw;
+    min-height:60vh;
+    align-content: center;
+  }
+  @include respond(phone) {
+    min-width: 70vw;
+    min-height:70vh;
+  }
+
   &__name {
     background-color: #6e90c7;
     color: white;
     font-weight: normal;
     padding: 0.5vh 0.8vw;
     border-radius: 4px;
+    font-size: 2.3vh;
   }
 
   &__name:link,
@@ -37,6 +59,22 @@
     margin-top: 4vh;
     margin-right: 1.5vw;
     margin-bottom: auto;
+    @include respond(tab-port) {
+      min-width: 45vw;
+      margin: 0vh 2.5vw;
+    }
+    @include respond(tab-land) {
+      min-width: 45vw;
+      margin: 0vh 2.5vw;
+    }
+    @include respond(ipad) {
+      min-width: 45vw;
+      margin: 0vh 2.5vw;
+    }
+    @include respond(phone) {
+      min-width: 65vw;
+      margin: 0vh 2.5vw;
+    }
   }
 
   &__info {
@@ -46,18 +84,39 @@
     max-width: 41vw;
     width: auto;
     margin-bottom: 0.5vh;
+    @include respond(tab-port) {
+      float: none;
+      max-width: 65vw;
+      margin-right: 0vw;
+      height:fit-content;
+    }
+    @include respond(tab-land) {
+      float: right;
+      max-width: 65vw;
+      margin-right: 0;
+      height: auto;
+    }
+    @include respond(ipad) {
+      float: right;
+      max-width: 65vw;
+      margin-right: 0;
+    }
+    @include respond(phone) {
+      max-width: 75vw;
+      float: none;
+    }
   }
 
   &__description {
     font-weight: bold;
     color: rgb(95, 95, 95);
-    font-size: 0.9vw;
+    font-size: 1.6vh;
     margin-top: 0.6vh;
   }
 
   &__heading {
     font-weight: normal;
-    font-size: 1vw;
+    font-size: 2vh;
     color: rgb(133, 133, 133);
     margin-bottom: 0;
   }
@@ -66,6 +125,6 @@
     color: rgb(95, 95, 95);
     font-weight: bold;
     margin-top: 0.6vh;
-    font-size: 0.9vw;
+    font-size: 1.6vh;
   }
 }

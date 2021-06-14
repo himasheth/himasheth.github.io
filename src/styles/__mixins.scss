@@ -15,6 +15,12 @@
         @content;
       }
     }
+    @if $breakpoint == ipad {
+      @media (min-width: 1024px) and (max-width: 1366px) {
+        @content;
+      }
+    }
+
     @if $breakpoint == laptop {
       @media (min-width: 1024px) and (max-width: 1200px) {
         @content;
