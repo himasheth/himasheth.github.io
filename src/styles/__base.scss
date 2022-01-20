@@ -4,10 +4,11 @@ body {
     Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: white;
 }
 
 .App {
-  background-color: #fafafa;
+  background-color: white;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -37,10 +38,12 @@ a:link {
 }
 
 .more {
-  color: hsl(0, 4%, 73%);
+  color: inherit;
   border: #bdb8b8;
   font-size: 2vh;
   font-weight: bold;
-  background-color: #e7f6f6;
+  background-color: rgba(0, 0, 0, 0);
   border-radius: 50px;
+  cursor: pointer;
+  user-select: none;
 }

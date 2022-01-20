@@ -4,7 +4,7 @@
   margin: 0vh 10vw;
   display: flex;
   overflow: hidden;
-  background-color: #fafafa;
+  background-color: white;
 
   &__banner,
   &__banner::after,
@@ -37,10 +37,18 @@
   }
 
   &__button-div {
-    background-color: #e7f6f6;
+    background-color: #d6eeee;
     border-radius: 50px;
     padding: 1vh 5vw;
     text-align: center;
+    transition: 0.4s;
+    color: hsl(192, 16%, 56%);
+    cursor: pointer;
+  }
+
+  &__button-div:hover {
+    color: hsl(0, 0%, 100%);
+    background-color: #9ed3d3;
   }
 
   &__hima {

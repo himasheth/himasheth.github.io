@@ -1,6 +1,6 @@
 import './styles/styles.scss';
 import React from 'react';
-import hima from './data/images/hima.png';
+import hima from './data/images/hima-brushed.jpg';
 import { Project } from './components/Project.js';
 import LearnButton from './components/Button';
 import { Extracurricular } from './components/Extracurricular';
@@ -29,9 +29,7 @@ function App() {
             to the world’s problems!
           </div>
           <br />
-          <div className='top__button-div'>
-            <LearnButton />
-          </div>
+          <LearnButton />
         </table>
         <img id="circle" className='top__hima' src={hima} alt='hima'/>
       </div>
