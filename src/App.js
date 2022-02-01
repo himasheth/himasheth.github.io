@@ -3,8 +3,9 @@ import React from 'react';
 import hima from './data/images/hima-brushed.jpg';
 import { Project } from './components/Project.js';
 import LearnButton from './components/Button';
+// import { Experience } from './components/Experience';
 import { Extracurricular } from './components/Extracurricular';
-import { projectList, extracurricularList } from './data/Data.js'
+import { projectList, extracurricularList} from './data/Data.js'
 
 function App() {
 
@@ -18,10 +19,10 @@ function App() {
       <div className='top'>
         <table>
           <div className='top__title'>
-            Hima Sheth’s Design Portfolio
+            Hi I’m Hima!
           </div>
           <div className='top__subtitle'>
-            I’m a dev and aspiring designer
+            I’m a dev and aspiring innovator
           </div>
           <div className='top__intro'>
             I’m passionate about <b>tech for social good </b>and hope to
@@ -34,6 +35,23 @@ function App() {
         <img id="circle" className='top__hima' src={hima} alt='hima'/>
       </div>
       <div className='section'>
+      {/*} <div className='experience'>
+          <h2 className='section-heading'>experience.</h2>
+          <div className='project-list row'>
+            {experienceList.map((exp) =>
+              <Experience
+                key="0"
+                link={exp.link}
+                name={exp.name}
+                logo={exp.logo}
+                title={exp.title}
+                timeframe={exp.timeframe}
+                role={exp.role}
+                picture={exp.image}
+              />
+            )}
+          </div>
+            </div> */}
         <div className='projects'>
           <h2 className='section-heading'>projects.</h2>
           <div className='project-list row'>

@@ -7,6 +7,18 @@ import dimagi from './images/dimagi.jpg';
 import deca from './images/deca.png';
 import blueprint from './images/blueprint.png';
 import entsoc from './images/entsoc.png';
+import htn from './images/htn.png'
+
+export const experienceList = [
+  {
+    'name': 'HubSpot',
+      'timeframe':"Jan 2022 - May 2022",
+      'title': 'Software Engineering Intern',
+      'role': "I'm currently a co-op on the ",
+      'link': 'https://www.figma.com/file/xGBdLG2ZLWEjRIH7o78j5r/Hack-The-North!!?node-id=0%3A1',
+      'image': positweet,
+  }
+]
 
 export const projectList = [
     {
@@ -62,6 +74,15 @@ export const projectList = [
   ]
   
   export const extracurricularList = [
+    {
+      'name': 'Hack the North',
+      'description': "Hack the North is Canada's largest hackathon. Over the past few years, we've brought together 3000 people (or 1500 people in person) together from 48" +
+                      " countries around the world. We want to inspire students in all areas of tech to dream big and give them the resources to network and build throughout our event.",
+      'role': "I was previously a sponsorship cooridinator managing the portfolios of over 10 companies and ensuring we were meeting their recruiting and marketing goals during our event." +
+              " I also worked on the in-person activities team to quickly plan and run in-person events as restrictions were lifted. This year, I'll be continuing on the team as a logistics organizer.",
+      'link': 'https://www.hackthenorth.com/',
+      'image': htn,
+    },
     {
       'name': 'Dimagi | Technology for Social Impact',
       'description': 'Dimagi works with countries all around the world to provide tech for social impact. Their tech development platform CommCare is ' +
