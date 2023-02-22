@@ -7,7 +7,7 @@ export default class LearnButton extends Component {
     return (
         <Link activeClass="active" to="projects" spy={true} smooth={true}>
           <div className='top__button-div'>
-            <button className="more"> Learn more below! </button>
+            <button className="more" action="https://www.linkedin.com/in/himasheth/"> Connect with me! </button>
           </div>
         </Link>
     );

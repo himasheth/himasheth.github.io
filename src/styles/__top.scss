@@ -1,11 +1,10 @@
 /* HEADING STYLES */
 
 .top {
-  margin: 0vh 10vw;
+  justify-content: center;
   display: flex;
   overflow: hidden;
   background-color: white;
-
   &__banner,
   &__banner::after,
   &__banner:link {
@@ -52,26 +51,38 @@
   }
 
   &__hima {
-    padding-top: 8vh;
-    width: 40vw;
     margin: 0vw;
+    border-radius: 70%;
+    max-width: 50vw;
+    max-height: 50vh;
+    width: auto;
     height: auto;
-    @include respond(tab-port) {
-      display: none;
-    }
-    @include respond(tab-land) {
-      display: none;
-    }
-    @include respond(phone) {
-      display: none;
-    }
-    @include respond(ipad) {
-      display: none;
-    }
+
+  @include respond(tab-port) {
+    display: none;
   }
+
+  @include respond(tab-land) {
+    display: none;
+  }
+
+  @include respond(phone) {
+    display: none;
+  }
+
+  @include respond(ipad) {
+    display: none;
+  }
+}
 }
 
 table {
-  padding: 10vh 5vw;
-  padding-top: 20vh;
+  padding: 5vh 5vw;
+}
+
+a,
+a::before,
+a::after,
+a:link {
+  text-decoration-color: white;
 }
